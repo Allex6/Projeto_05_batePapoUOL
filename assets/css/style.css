@@ -87,7 +87,7 @@ body.showing-app {
 
 .messages-container .message-item {
     display: flex;
-    height: 40px;
+    min-height: 40px;
     width: 100%;
     align-items: center;
     padding: 0 9px;
@@ -99,6 +99,7 @@ body.showing-app {
 .messages-container .message-item p {
     font-size: 14px;
     word-break: break-all;
+    line-height: 20px;
 }
 
 .messages-container .message-item p .message-time {
@@ -143,4 +144,3 @@ body.showing-app {
     background: none;
     display: flex;
 }
-
