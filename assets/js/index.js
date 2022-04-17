@@ -199,6 +199,8 @@ function initInputs(){
 
 function sendMessage(from, to, type, text){
 
+    if(text === '') return false;
+
     const message = {
         from,
         to,
